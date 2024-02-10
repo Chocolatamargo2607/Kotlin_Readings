@@ -12,28 +12,25 @@ Es un lenguaje de programación moderno o legacy, orientado a objetos con un enf
 
 Kotlin proporciona una alternativa de Java más concisa, productiva y segura, que sea adecuada en todos los contextos en los que se utiliza Java hoy en día. Ademas de que permite a los desarrolladores escribir código de manera más eficiente y menos propensa a errores.
 
-### _~Áreas de uso~_
+### _Áreas de uso_
 ![Static Badge](https://img.shields.io/badge/Backend_de_aplicaciones_web%20-%23FA8E5F?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Microservidores%20-%23FACA89?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Aplicaciones_multiplataforma%20-%2383BD86?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Aplicaciones_Moviles%20-%2354C6B8?style=for-the-badge)
 
-### _~Plataformas de destino~_
+### _Plataformas de destino_
 ![Static Badge](https://img.shields.io/badge/Servidor%20-%236A95D6%20?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Android_/_IOS%20-%23C398C8?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Programas_de_uso_en_java%20-%23E891BD?style=for-the-badge)
 
 
 ## Principio
-> [!NOTE]
-> This is a note
-
 El principio fundamental de Kotlin es la pragmaticidad, puesto que este es un lenguaje práctico que se enfoca en mejorar la productividad de los desarrolladores sin comprometer la interoperabilidad, la seguridad o el rendimiento.
 
-Este fue diseñado para ser interoperable con Java, lo que significa que los desarrolladores pueden aprovechar las bibliotecas y herramientas existentes de Java en sus proyectos de Kotlin sin problemas o sin la necesidad de una herramienta externa como los frameworks.
+Este fue diseñado para ser `interoperable` con Java, lo que significa que los desarrolladores pueden aprovechar las bibliotecas y herramientas existentes de Java en sus proyectos de Kotlin sin problemas.
 
 ## Caracteristicas
-### _~Tipado estatico~_
+### _Tipado estatico_
 Kotlin es un lenguaje de tipado estático(el tipo de variable no cambia), pero es flexible al momento de declarar una variable, pues no es necesario decirle que tipo de dato va almacenar dicha variable.
 
 Algunas de ventajas que posee son:
@@ -43,12 +40,12 @@ Algunas de ventajas que posee son:
 - **Soporte de herramientas**
 
 > [!IMPORTANT]
-> Se debe de tener en cuenta que este tipo de lengüaje nos presenta una nueva forma de crear variables
+> Se debe de tener en cuenta que este tipo de lenguaje nos presenta una nueva forma de crear variables
 
 ```kotlin    
 val a:int? = null 
 ```
-"donde al añadir el simbolo `?`, declaramos que esta variable puede llegar a poseer un valor nulo (normalmente cuando no se le declara prebiamente un valor especifico). A continuacion se presenta un ejemplo basico frente del manejo de kotlin"
+"Donde al añadir el simbolo `?`, declaramos que esta variable puede llegar a poseer un valor nulo (normalmente cuando no se le declara prebiamente un valor especifico). A continuacion se presenta un ejemplo basico frente del manejo de kotlin"
 
 ```kotlin
   data class person(
@@ -64,7 +61,7 @@ val a:int? = null
     println("The oldest is: $oldest")
   }
 ```
-### _~Principio de funcionalidad y orientacion a objetos~_
+### _Principio de funcionalidad y orientacion a objetos_
 Al escribir el codigo en un estilo funcional, poseemos la capacidad de entregar un codigo mas limpio, consiso, y logramos evitar la duplicacion de codigo.
  
 Cuando tienes dos fragmentos de código similares para realizar una tarea común pero con diferencias en los detalles, puedes crear una función que encapsule la lógica común y pasar las diferencias como argumentos, utilizando expresiones lambda para representar funciones anónimas de manera concisa.
