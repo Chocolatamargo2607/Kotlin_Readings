@@ -5,7 +5,7 @@
 1. [¿Que es kotlin?](#introduccion)
 2. [Principio](#principio)
 3. [Caracteristicas](#caracteristicas)
-4. [Compilación de kotlin](#compilacion)
+4. [Compilación de kotlin](#compilación-de-kotlin)
 
 ## ¿Que es kotlin?
 Es un lenguaje de programación moderno o legacy, orientado a objetos con un enfoque funcional.
@@ -61,6 +61,9 @@ val a:int? = null
     println("The oldest is: $oldest")
   }
 ```
+La variable `persons` almacena los datos de la clase `Person`, pero en ningún momento se especifica el tipo de variable que es. Por su contexto, Kotlin asume el tipo de dato. Lo mismo ocurre con la variable `oldest`.
+
+
 ### _Principio de funcionalidad y orientacion a objetos_
 Al escribir el codigo en un estilo funcional, poseemos la capacidad de entregar un codigo mas limpio, consiso, y logramos evitar la duplicacion de codigo.
  
