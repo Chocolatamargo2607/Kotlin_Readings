@@ -36,7 +36,7 @@ Estas son cruciales más allá de garantizar la funcionalidad del código, espec
 Las pruebas de integración siguen a las pruebas unitarias e implican probar secuencias completas de eventos, componentes de interfaz de usuario e interacciones con proveedores de servicios. Un método de pruebas de integración es utilizar monkeyrunner, una herramienta que ejecuta secuencias de comandos Python para realizar acciones como abrir aplicaciones, enviar eventos de teclado y táctiles y realizar capturas de pantalla en dispositivos Android a través de la conexión ADB.
 
 
-## ++ Debugging --
+## Debugging
 Los desarrolladores dedican tiempo a escribir pruebas para garantizar la estabilidad de las aplicaciones. Sin embargo, en Android, a veces las pruebas no funcionan de manera consistente en diferentes dispositivos, lo que requiere depuración. Esto implica perfiles, rastreo y mensajes para identificar y solucionar problemas.
 
 ### ++ _Profiling_ --
